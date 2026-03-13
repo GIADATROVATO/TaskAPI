@@ -13,45 +13,14 @@ Funzionalità principali
     - ApiError e ApiError
 
 Architettura 
-│
-├── config
-│   └── SecurityConfig.java			
-│
-├── security
-│   ├── JwtService.java			
-│   ├── JwtAuthFilter.java			
-│   └── CustomUserDetailsService.java	
-│
-├── controller
-│   ├── AuthController.java			
-│   └── TaskController.java			
-│
-├── dto
-│   ├── AuthRequest.java				 
-│   ├── AuthResponse.java				 
-│   │      												 	 
-│   ├── RegisterRequest.java			 
-│   └── TaskDto.java			
-│
-├── entity
-│   ├── User.java				
-│   └── Task.java
-│   └── Role.java				
-│
-├── repository
-│   ├── UserRepository.java		
-│   └── TaskRepository.java		
-│
-└── service
-│   ├── AuthService.java			
-│   ├── TaskService.java		
-│   ├── TaskServiceImpl.java		
-│
-├── payload 
-│      ├──ApiResponse.java
-│      ├──ApiError.java 
-│
-├── exception 
-│   ├── GlobalExceptionHandler.java			
-│   ├── TaskNotFoundException.java		
-│   ├── UserNotFoundNotFoundException.java
+
+- config: SecurityConfig.java			
+- security: JwtService.java, JwtAuthFilter.java, CustomUserDetailsService.java
+- controller: AuthController.java, TaskController.java			
+- dto: AuthRequest.java, AuthResponse.java, RegisterRequest.java, TaskDto.java
+- entity: User.java, Task.java, Role.java
+- repository: UserRepository.java, TaskRepository.java		
+- service: AuthService.java, TaskService.java, TaskServiceImpl.java		
+- payload: ApiResponse.java, ApiError.java 
+- exception: GlobalExceptionHandler.java, TaskNotFoundException.java, UserNotFoundNotFoundException.java  
+
