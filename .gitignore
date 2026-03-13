@@ -1,0 +1,60 @@
+# Compilati e build
+/target/
+/out/
+
+# File di log
+*.log
+
+# Directory temporanee
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Maven
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+/build/
+/!gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.settings/
+bin/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+.nb-gradle/
+
+# Visual Studio Code
+.vscode/
+
+# Spring Boot
+spring-boot-devtools.properties
+
+# Files generati da sistemi di versionamento
+*.class
+*.jar
+*.war
+*.ear
